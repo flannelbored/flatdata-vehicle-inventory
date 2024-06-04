@@ -9,7 +9,7 @@ do
   --header "Content-Type: application/json" \
   --request POST \
   --data '{
-      "brand": "TOY",
+      "brand": "LEXUS",
       "mode": "content",
       "group": true,
       "groupmode": "full",
@@ -18,7 +18,7 @@ do
       "pagestart": 0,
       "filter": {
           "year": [2024], 
-          "series": ["venza","ux"], 
+          "series": ["UX"], 
           "dealers": ["'$i'"],
           "andfields": ["accessory", "packages", "dealer"]
         }
